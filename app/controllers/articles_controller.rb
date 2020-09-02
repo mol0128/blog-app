@@ -1,6 +1,6 @@
 class ArticlesController < ApplicationController
   before_action :set_article, only: [:show, :edit, :update]
-  
+
   def index
     @articles = Article.all
   end
@@ -28,7 +28,7 @@ class ArticlesController < ApplicationController
   def update
     if @article.update(article_params)
       redirect_to article_path(@article), notice: '更新できました'
-    else 
+    else
       flash.now[:erorr] = '更新できませんでした'
       render :edit
     end
