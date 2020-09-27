@@ -1,0 +1,2 @@
+class RelationshipMiler < ApplicationMailer
+end
