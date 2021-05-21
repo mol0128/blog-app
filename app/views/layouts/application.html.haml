@@ -25,6 +25,7 @@
             = link_to 'お気に入り', favorites_path
             = link_to 'ログアウト', destroy_user_session_path, data: { method: 'delete' }
       - else
+        = link_to 'ゲストログイン', articles_guest_sign_in_path, class: 'header_loginBtn', method: :post
         = link_to 'ログイン', new_user_session_path, class: 'header_loginBtn'
     - if flash.present?
       .flash
