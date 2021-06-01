@@ -1,24 +1,34 @@
 # README
+## ブログアプリ
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## 作成した目的
 
-* Ruby version
 
-* System dependencies
+## 使い方
+### トップ画面
 
-* Configuration
+<br>
+画像
+<br>
 
-* Database creation
+### 相場検索画面
 
-* Database initialization
+<br>
+画像
+<br>
 
-* How to run the test suite
+### 検索結果画面
 
-* Services (job queues, cache servers, search engines, etc.)
+<br>
+画像
+<br>
 
-* Deployment instructions
+## URL
 
-* ...
+
+## 使用技術
+
+## インフラ
+
+## 機能一覧
